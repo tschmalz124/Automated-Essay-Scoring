@@ -20,3 +20,12 @@ Ultimately, both models struggled to closely predict the final essay score.  How
 
 ## Future Work
 During model evaluation, it became apparent the model was much more accurate with persuasive, narrative, and expository types of essays versus source dependent essays focusing on literary elements.  As a result I would strongly considering separating the essays into these different types, and training a model separately for each one.
+
+## Important Files
+* reports/Final Report (Rough Draft).pdf
+  * Rough draft of final report
+* src
+  * Folder containing .py scripts to load and process data and create features.
+* notebooks
+  * 1.1 and 1.2 are Jupyter notebooks containing methods for training models for both the single scaler and essay dependent scaler dataset
+  * 2.0 Contains in-depth analysis of prediction results to determine which of the two models was more effective
